@@ -61,7 +61,16 @@ namespace FARO_Dual
             conectordb.InsertarFormulario(int.Parse(cbNombre.SelectedValue.ToString()), int.Parse(cbVehiculo.SelectedValue.ToString()), int.Parse(cbHora.SelectedValue.ToString()),
                 int.Parse(cbTerreno.SelectedValue.ToString()), int.Parse(cbTiempo.SelectedValue.ToString()), id_valido);
 
-            MessageBox.Show("Puntuacion: " + puntuacion, "Resultado informe");
+            string valido;
+            if (id_valido == 0)
+            {
+                valido = "Rechazada";
+            }
+            else
+            {
+                valido = "Aceptada";
+            }
+            MessageBox.Show("Puntuacion: " + puntuacion+ "¿Autorización para volar?: "+valido, "Resultado informe");
         }
 
         // Método el cual te cierra la ventana Formulario y te abre la ventana Menú
