@@ -48,7 +48,7 @@ namespace FARO_Dual
             int id_valido;
             int puntuacion = sacarPuntos();
             // Condición que asigna un valor dependiendo del resultado de puntos.
-            if (puntuacion >= 75)
+            if (puntuacion >= 100)
             {
                 id_valido = 1;
             }
@@ -70,7 +70,7 @@ namespace FARO_Dual
             {
                 valido = "Aceptada";
             }
-            MessageBox.Show("Puntuacion: " + puntuacion+ "¿Autorización para volar?: "+valido, "Resultado informe");
+            MessageBox.Show("Puntuacion: " + puntuacion+ " ¿Autorización para volar?: "+valido, "Resultado informe");
         }
 
         // Método el cual te cierra la ventana Formulario y te abre la ventana Menú
