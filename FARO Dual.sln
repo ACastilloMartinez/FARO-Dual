@@ -5,16 +5,27 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FARO Dual", "FARO Dual.csproj", "{1F806D59-5D71-40F6-B1CE-0E485D64A90E}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Instalador_FARO", "..\Instalador_FARO\Instalador_FARO.aiproj", "{2F322589-1602-4D15-87EE-CF34B6239258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.All|Any CPU.Build.0 = Release|Any CPU
 		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F806D59-5D71-40F6-B1CE-0E485D64A90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F322589-1602-4D15-87EE-CF34B6239258}.All|Any CPU.ActiveCfg = DefaultBuild
+		{2F322589-1602-4D15-87EE-CF34B6239258}.All|Any CPU.Build.0 = DefaultBuild
+		{2F322589-1602-4D15-87EE-CF34B6239258}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{2F322589-1602-4D15-87EE-CF34B6239258}.Debug|Any CPU.Build.0 = DefaultBuild
+		{2F322589-1602-4D15-87EE-CF34B6239258}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{2F322589-1602-4D15-87EE-CF34B6239258}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
