@@ -15,6 +15,7 @@ namespace FARO_Dual
     {
         // Se establecen los atributos principales.
         MySqlConnection con = new MySqlConnection("Server=localhost;Database=airforcedb;Uid=root;Pwd=admin");
+
         public static string id_pil;
         public Login()
         {
