@@ -164,6 +164,8 @@
     <None Include="airforcedbDataSet1.xss">
       <DependentUpon>airforcedbDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="Memoria y archivos\Instalador_FARO.msi" />
+    <None Include="Memoria y archivos\Memoria.pdf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -201,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="descarga %281%29 %281%29.ico" />
+    <Content Include="Memoria y archivos\airforcedb.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
